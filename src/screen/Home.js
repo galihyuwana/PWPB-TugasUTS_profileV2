@@ -11,10 +11,9 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Icon2 from 'react-native-vector-icons/SimpleLineIcons';
-import DefaultImage from '../../image/galih.jpg';
+import profile from '../../image/galih.jpg';
 
 const Home = ({navigation}) => {
-  const DEFAULT_IMAGE = Image.resolveAssetSource(DefaultImage).uri;
   return (
     <View style={{flex: 1}}>
       <StatusBar barStyle={'light-content'} backgroundColor="#212121" />
@@ -31,7 +30,7 @@ const Home = ({navigation}) => {
             paddingLeft: 30,
           }}>
           <Image
-            source={{uri: DEFAULT_IMAGE}}
+            source={profile}
             style={{
               width: 140,
               height: 140,
@@ -66,8 +65,8 @@ const Home = ({navigation}) => {
             right: 15,
             padding: 5,
           }}>
-          <TouchableOpacity onPress={() => navigation.navigate('Edit Profile')} >
-            <Icon2 name="pencil" size={30}  />
+          <TouchableOpacity onPress={() => navigation.navigate('Edit Profile')}>
+            <Icon2 name="pencil" size={30} />
           </TouchableOpacity>
         </View>
       </View>
@@ -172,6 +171,7 @@ const Home = ({navigation}) => {
         </View>
         {/* alamat end */}
 
+        {/* email start */}
         <View
           style={{
             flexDirection: 'row',
@@ -214,6 +214,22 @@ const Home = ({navigation}) => {
               galiheka@smkn2-solo.net
             </Text>
           </View>
+        </View>
+        {/* email end */}
+        <View
+          style={{
+            alignItems: 'flex-end',
+            marginTop: 20,
+          }}>
+          <TouchableOpacity onPress={() => navigation.navigate('Skill')}>
+            <Text
+              style={{
+                fontSize: 17,
+                color: '#43A3FF',
+              }}>
+              Skill Coding{' '}
+            </Text>
+          </TouchableOpacity>
         </View>
       </ScrollView>
       {/* sosmed */}
