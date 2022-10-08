@@ -17,7 +17,7 @@ function Navigation() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} options={{headerShown: false}}/>
-        <Stack.Screen name="Skill" component={Skill} />
+        <Stack.Screen name="Skill Coding" component={Skill} />
         <Stack.Screen name="Edit Profile" component={EditScreen} />
         <Stack.Screen name="Career" component={WebCareer} options={{headerShown: false}}/>
         <Stack.Screen name="Web Mabar" component={WebMabar} options={{headerShown: false}}/>

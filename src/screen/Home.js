@@ -58,7 +58,8 @@ const Home = ({navigation}) => {
             </Text>
           </View>
         </View>
-        <View
+        {/* button edit */}
+        {/* <View
           style={{
             position: 'absolute',
             top: 15,
@@ -68,7 +69,7 @@ const Home = ({navigation}) => {
           <TouchableOpacity onPress={() => navigation.navigate('Edit Profile')}>
             <Icon2 name="pencil" size={30} />
           </TouchableOpacity>
-        </View>
+        </View> */}
       </View>
       {/* nama end */}
 
@@ -219,15 +220,16 @@ const Home = ({navigation}) => {
         <View
           style={{
             alignItems: 'flex-end',
-            marginTop: 20,
+            marginTop: 25,
           }}>
-          <TouchableOpacity onPress={() => navigation.navigate('Skill')}>
+          <TouchableOpacity onPress={() => navigation.navigate('Skill Coding')}>
             <Text
               style={{
-                fontSize: 17,
+                fontSize: 19,
                 color: '#43A3FF',
+                fontWeight:'500'
               }}>
-              Skill Coding{' '}
+              Skill Coding...{' '}
             </Text>
           </TouchableOpacity>
         </View>

@@ -68,7 +68,44 @@ export default function Skill({navigation}) {
                 padding: 10,
                 borderRadius: 10,
               }}>
-              <Text>HTML</Text>
+              <Text
+                style={{
+                  fontSize: 17,
+                  fontWeight: '500',
+                }}>
+                HTML
+              </Text>
+              {/* persentase skill */}
+              <View
+                style={{
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginTop: 15,
+                }}>
+                <View
+                  style={{
+                    height: 15,
+                    width: '85%',
+                    backgroundColor: '#000000',
+                    borderRadius: 15,
+                  }}>
+                  <View
+                    style={{
+                      height: 15,
+                      width: '70%',
+                      backgroundColor: 'blue',
+                      borderRadius: 15,
+                    }}
+                  />
+                </View>
+                <Text
+                  style={{
+                    marginLeft: 8,
+                    fontSize: 15,
+                  }}>
+                  70%
+                </Text>
+              </View>
             </View>
           </View>
           {/* CSS */}
@@ -97,7 +134,44 @@ export default function Skill({navigation}) {
                 padding: 10,
                 borderRadius: 10,
               }}>
-              <Text>CSS</Text>
+              <Text
+                style={{
+                  fontSize: 17,
+                  fontWeight: '500',
+                }}>
+                CSS
+              </Text>
+              {/* persentase skill */}
+              <View
+                style={{
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginTop: 15,
+                }}>
+                <View
+                  style={{
+                    height: 15,
+                    width: '85%',
+                    backgroundColor: '#000000',
+                    borderRadius: 15,
+                  }}>
+                  <View
+                    style={{
+                      height: 15,
+                      width: '60%',
+                      backgroundColor: 'blue',
+                      borderRadius: 15,
+                    }}
+                  />
+                </View>
+                <Text
+                  style={{
+                    marginLeft: 8,
+                    fontSize: 15,
+                  }}>
+                  60%
+                </Text>
+              </View>
             </View>
           </View>
           {/* JAVASCRIPT */}
@@ -126,7 +200,44 @@ export default function Skill({navigation}) {
                 padding: 10,
                 borderRadius: 10,
               }}>
-              <Text>JAVASCRIPT</Text>
+              <Text
+                style={{
+                  fontSize: 17,
+                  fontWeight: '500',
+                }}>
+                JAVASCRIPT
+              </Text>
+              {/* persentase skill */}
+              <View
+                style={{
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginTop: 15,
+                }}>
+                <View
+                  style={{
+                    height: 15,
+                    width: '85%',
+                    backgroundColor: '#000000',
+                    borderRadius: 15,
+                  }}>
+                  <View
+                    style={{
+                      height: 15,
+                      width: '10%',
+                      backgroundColor: 'blue',
+                      borderRadius: 15,
+                    }}
+                  />
+                </View>
+                <Text
+                  style={{
+                    marginLeft: 8,
+                    fontSize: 15,
+                  }}>
+                  10%
+                </Text>
+              </View>
             </View>
           </View>
           {/* TAILWIND */}
@@ -155,7 +266,44 @@ export default function Skill({navigation}) {
                 padding: 10,
                 borderRadius: 10,
               }}>
-              <Text>TAILWIND</Text>
+              <Text
+                style={{
+                  fontSize: 17,
+                  fontWeight: '500',
+                }}>
+                TAILWIND
+              </Text>
+              {/* persentase skill */}
+              <View
+                style={{
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginTop: 15,
+                }}>
+                <View
+                  style={{
+                    height: 15,
+                    width: '85%',
+                    backgroundColor: '#000000',
+                    borderRadius: 15,
+                  }}>
+                  <View
+                    style={{
+                      height: 15,
+                      width: '80%',
+                      backgroundColor: 'blue',
+                      borderRadius: 15,
+                    }}
+                  />
+                </View>
+                <Text
+                  style={{
+                    marginLeft: 8,
+                    fontSize: 15,
+                  }}>
+                  80%
+                </Text>
+              </View>
             </View>
           </View>
           {/* </View> */}
@@ -206,14 +354,17 @@ export default function Skill({navigation}) {
                 style={{
                   fontSize: 20,
                   fontWeight: '600',
+                  marginTop: 10,
+                  marginBottom: 15,
                 }}>
                 SEMESTA CAREER
               </Text>
               <View
                 style={{
                   backgroundColor: '#43A3FF',
-                  height: 30,
+                  height: 40,
                   justifyContent: 'center',
+                  borderRadius: 8,
                 }}>
                 <TouchableOpacity onPress={() => navigation.navigate('Career')}>
                   <Text
@@ -249,16 +400,20 @@ export default function Skill({navigation}) {
                 style={{
                   fontSize: 20,
                   fontWeight: '600',
+                  marginTop: 10,
+                  marginBottom: 15,
                 }}>
                 WEB MABAR
               </Text>
               <View
                 style={{
                   backgroundColor: '#43A3FF',
-                  height: 30,
+                  height: 40,
                   justifyContent: 'center',
+                  borderRadius: 8,
                 }}>
-                <TouchableOpacity onPress={() => navigation.navigate('Web Mabar')}>
+                <TouchableOpacity
+                  onPress={() => navigation.navigate('Web Mabar')}>
                   <Text
                     style={{
                       textAlign: 'center',
