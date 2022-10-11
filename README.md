@@ -19,7 +19,9 @@ npm i
 npx react-native run-android || npx react-native run-ios
 ```
 
-Link Apk
+
+## Link Apk
+
 ```bash
 https://bit.ly/3rI7z1v
 ```
